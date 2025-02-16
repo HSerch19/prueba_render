@@ -21,7 +21,7 @@ const db=new sqlite3.Database(db_name, err =>{
 if (err){
 	return console.error(err.message);
 }else{
-	console.log("Conexión exitosa con la base de Datos");
+	console.log("Conexión exitosa con la base de Dato");
 }
 })
 
